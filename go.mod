@@ -186,3 +186,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	mvdan.cc/lint v0.0.0-20170908181259-adc824a0674b // indirect
 )
+
+require github.com/lycug/filelen v0.0.0-20221108075110-2a9d17f228aa // indirect

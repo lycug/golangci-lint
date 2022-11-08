@@ -98,6 +98,7 @@ linters:
     - unparam
     - unused
     - whitespace
+    - filelen
 
   # don't enable:
   # - asciicheck

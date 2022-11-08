@@ -206,6 +206,7 @@ type LintersSettings struct {
 	Whitespace       WhitespaceSettings
 	Wrapcheck        WrapcheckSettings
 	WSL              WSLSettings
+	Filelen          FilelenSettings
 
 	Custom map[string]CustomLinterSettings
 }
@@ -715,6 +716,10 @@ type WSLSettings struct {
 	ForceCuddleErrCheckAndAssign     bool     `mapstructure:"enforce-err-cuddling"`
 	ErrorVariableNames               []string `mapstructure:"error-variable-names"`
 	ForceExclusiveShortDeclarations  bool     `mapstructure:"force-short-decl-cuddling"`
+}
+
+type FilelenSettings struct {
+	MaxLineNum int `mapstructure:"max-line-num"`
 }
 
 // CustomLinterSettings encapsulates the meta-data of a private linter.

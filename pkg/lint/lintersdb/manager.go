@@ -174,6 +174,7 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 		whitespaceCfg       *config.WhitespaceSettings
 		wrapcheckCfg        *config.WrapcheckSettings
 		wslCfg              *config.WSLSettings
+		filelenCfg          *config.FilelenSettings
 	)
 
 	if m.cfg != nil {
@@ -249,6 +250,7 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 		whitespaceCfg = &m.cfg.LintersSettings.Whitespace
 		wrapcheckCfg = &m.cfg.LintersSettings.Wrapcheck
 		wslCfg = &m.cfg.LintersSettings.WSL
+		filelenCfg = &m.cfg.LintersSettings.Filelen
 
 		if govetCfg != nil {
 			govetCfg.Go = m.cfg.Run.Go
@@ -849,6 +851,11 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 			WithSince("v1.20.0").
 			WithPresets(linter.PresetStyle).
 			WithURL("https://github.com/bombsimon/wsl"),
+
+		linter.NewConfig(golinters.NewFileLen(filelenCfg)).
+			WithSince("v1.18.0").
+			WithPresets(linter.PresetComplexity).
+			WithURL("https://github.com/ultraware/funlen"),
 
 		// nolintlint must be last because it looks at the results of all the previous linters for unused nolint directives
 		linter.NewConfig(golinters.NewNoLintLint(noLintLintCfg)).
