@@ -3,8 +3,8 @@ package processors
 import (
 	"testing"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lycug/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/result"
 )
 
 func newFromLinterIssue(linterName string) result.Issue {

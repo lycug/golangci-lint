@@ -15,9 +15,9 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
+	"github.com/lycug/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/lycug/golangci-lint/pkg/lint/linter"
 )
 
 const gciName = "gci"

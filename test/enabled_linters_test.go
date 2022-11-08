@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golangci/golangci-lint/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/test/testshared"
+	"github.com/lycug/golangci-lint/pkg/lint/lintersdb"
+	"github.com/lycug/golangci-lint/test/testshared"
 )
 
 //nolint:funlen

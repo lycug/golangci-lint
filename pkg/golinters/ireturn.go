@@ -6,8 +6,8 @@ import (
 	"github.com/butuzov/ireturn/analyzer"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/lycug/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/golinters/goanalysis"
 )
 
 func NewIreturn(settings *config.IreturnSettings) *goanalysis.Linter {

@@ -5,7 +5,7 @@ package testdata
 import (
 	"fmt"
 
-	"github.com/golangci/golangci-lint/pkg/config" // want "File is not `goimports`-ed with -local github.com/golangci/golangci-lint"
+	"github.com/lycug/golangci-lint/pkg/config" // want "File is not `goimports`-ed with -local github.com/lycug/golangci-lint"
 	"github.com/pkg/errors"
 )
 

@@ -3,8 +3,8 @@ package golinters
 import (
 	"honnef.co/go/tools/simple"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/lycug/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/golinters/goanalysis"
 )
 
 func NewGosimple(settings *config.StaticCheckSettings) *goanalysis.Linter {

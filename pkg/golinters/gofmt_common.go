@@ -9,10 +9,10 @@ import (
 	"github.com/pkg/errors"
 	diffpkg "github.com/sourcegraph/go-diff/diff"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lycug/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/lint/linter"
+	"github.com/lycug/golangci-lint/pkg/logutils"
+	"github.com/lycug/golangci-lint/pkg/result"
 )
 
 type Change struct {

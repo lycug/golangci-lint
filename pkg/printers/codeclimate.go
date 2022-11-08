@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lycug/golangci-lint/pkg/result"
 )
 
 const defaultCodeClimateSeverity = "critical"

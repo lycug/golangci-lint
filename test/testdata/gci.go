@@ -5,9 +5,9 @@ package testdata
 import (
 	"fmt"
 
-	"github.com/golangci/golangci-lint/pkg/config" // want "File is not \\`gci\\`-ed with --skip-generated -s standard,prefix\\(github.com/golangci/golangci-lint\\),default"
+	"github.com/lycug/golangci-lint/pkg/config" // want "File is not \\`gci\\`-ed with --skip-generated -s standard,prefix\\(github.com/lycug/golangci-lint\\),default"
 
-	"github.com/pkg/errors" // want "File is not \\`gci\\`-ed with --skip-generated -s standard,prefix\\(github.com/golangci/golangci-lint\\),default"
+	"github.com/pkg/errors" // want "File is not \\`gci\\`-ed with --skip-generated -s standard,prefix\\(github.com/lycug/golangci-lint\\),default"
 )
 
 func GoimportsLocalTest() {

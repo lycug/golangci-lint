@@ -3,7 +3,7 @@ package processors
 import (
 	"path/filepath"
 
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lycug/golangci-lint/pkg/result"
 )
 
 // PathPrefixer adds a customizable prefix to every output path

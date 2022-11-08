@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lycug/golangci-lint/pkg/result"
 )
 
 func TestJSON_Print(t *testing.T) {

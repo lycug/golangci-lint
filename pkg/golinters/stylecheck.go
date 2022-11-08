@@ -5,8 +5,8 @@ import (
 	scconfig "honnef.co/go/tools/config"
 	"honnef.co/go/tools/stylecheck"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/lycug/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/golinters/goanalysis"
 )
 
 func NewStylecheck(settings *config.StaticCheckSettings) *goanalysis.Linter {

@@ -4,7 +4,7 @@
 package gci
 
 import (
-	"github.com/golangci/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/config"
 	"github.com/pkg/errors"
 	"fmt"
 )

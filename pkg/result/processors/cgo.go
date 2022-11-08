@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/golangci/golangci-lint/pkg/goutil"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lycug/golangci-lint/pkg/goutil"
+	"github.com/lycug/golangci-lint/pkg/result"
 )
 
 type Cgo struct {

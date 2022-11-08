@@ -1,9 +1,9 @@
 package golinters
 
 import (
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
 	filelenanalyzer "github.com/lycug/filelen/pkg/analyzer"
+	"github.com/lycug/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/golinters/goanalysis"
 	"golang.org/x/tools/go/analysis"
 )
 
@@ -19,7 +19,7 @@ func NewFileLen(settings *config.FilelenSettings) *goanalysis.Linter {
 	}
 
 	return goanalysis.NewLinter(
-		funlenName,
+		filelenName,
 		"check file max line number",
 		[]*analysis.Analyzer{analyzer},
 		nil,

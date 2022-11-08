@@ -3,9 +3,9 @@ package processors
 import (
 	"sort"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lycug/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/logutils"
+	"github.com/lycug/golangci-lint/pkg/result"
 )
 
 type textToCountMap map[string]int

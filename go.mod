@@ -1,6 +1,6 @@
-module github.com/golangci/golangci-lint
+module github.com/lycug/golangci-lint
 
-go 1.19
+go 1.18
 
 require (
 	4d63.com/gochecknoglobals v0.1.0
@@ -187,4 +187,4 @@ require (
 	mvdan.cc/lint v0.0.0-20170908181259-adc824a0674b // indirect
 )
 
-require github.com/lycug/filelen v0.0.0-20221108075110-2a9d17f228aa // indirect
+require github.com/lycug/filelen v0.0.0-20221108075110-2a9d17f228aa

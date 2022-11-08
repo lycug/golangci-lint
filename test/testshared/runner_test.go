@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
+	"github.com/lycug/golangci-lint/pkg/exitcodes"
 )
 
 //nolint:funlen

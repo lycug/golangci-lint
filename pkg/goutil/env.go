@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/lycug/golangci-lint/pkg/logutils"
 )
 
 type EnvKey string

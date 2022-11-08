@@ -10,12 +10,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/golangci/golangci-lint/internal/robustio"
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/result"
-	"github.com/golangci/golangci-lint/pkg/timeutils"
+	"github.com/lycug/golangci-lint/internal/robustio"
+	"github.com/lycug/golangci-lint/pkg/config"
+	"github.com/lycug/golangci-lint/pkg/fsutils"
+	"github.com/lycug/golangci-lint/pkg/logutils"
+	"github.com/lycug/golangci-lint/pkg/result"
+	"github.com/lycug/golangci-lint/pkg/timeutils"
 )
 
 type Fixer struct {

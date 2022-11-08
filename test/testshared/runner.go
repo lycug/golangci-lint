@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/lycug/golangci-lint/pkg/exitcodes"
+	"github.com/lycug/golangci-lint/pkg/fsutils"
+	"github.com/lycug/golangci-lint/pkg/logutils"
 )
 
 const (
